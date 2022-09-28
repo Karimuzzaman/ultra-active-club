@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Cricket",
+        "Time required": 30,
+        "img": "https://cdn.britannica.com/47/148847-050-C4FB5341/Cricket-bat-ball.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Football",
+        "Time required": 35,
+        "img": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltfdae44a2e136b93a/630cdb07982f3c4a2d406258/Mbappe_Neymar.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Ludo",
+        "Time required": 40,
+        "img": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/yamsauet9bhnbtbi_1595837137.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "Card Game",
+        "Time required": 45,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/AcetoFive.JPG/1200px-AcetoFive.JPG"
+    },
+    {
+        "id": "5",
+        "name": "Computer Gaming",
+        "Time required": 50,
+        "img": "https://technosmarter.com/assets/images/Top%2010%20free%20pc%20games%20.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Volleyball",
+        "Time required": 60,
+        "img": "https://cdn.britannica.com/08/190908-131-A6B6D47D/Volleyball-match.jpg"
+    }
+]
