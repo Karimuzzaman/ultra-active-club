@@ -1,0 +1,22 @@
+.first-q {
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid skyblue;
+    background-color: burlywood;
+}
+
+.second-q {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid aquamarine;
+    background-color: darkseagreen;
+}
+
+.third-q {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    background-color: thistle;
+}

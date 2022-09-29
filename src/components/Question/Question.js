@@ -26,7 +26,7 @@ const Question = () => {
             </div>
             <div className='third-q'>
                 <h2> Q3. What are the uses of useEffect in ReactJS except from loading data?</h2>
-                <p></p>
+                <p>The useEffect Hook allows us to perform side effects in components.Some examples of side effects are: fetching data, directly updating the DOM, and timers. The useEffect hook allows us to respond to changes in the component lifecycle. The component lifecycle refers to a set of events that occur from the time, a component is mounted to the DOM until it is removed. useEffect is most commonly used to execute code when the component is initially rendered, when it is updated, and when it is unmounted.The useEffect hook allows components to react to lifecycle events such as mounting to the DOM, re-rendering, and unmounting.Using useEffect is probably the best part of React Hooks. It helps reduce the clutter of the component lifecycle methods and, most importantly, it helps separate different logic that can appear in the lifecycle methods.</p>
 
             </div>
 
