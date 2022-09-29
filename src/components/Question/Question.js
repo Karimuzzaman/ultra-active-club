@@ -11,7 +11,17 @@ const Question = () => {
             </div>
             <div className='second-q'>
                 <h2> Q2. What are the differences between props & state?</h2>
-                <p> </p>
+                <p> <b>Props: <br /></b>
+                    1. The Data is passed from one component to another. <br />
+                    2. It is Immutable (cannot be modified). <br />
+                    3. Props can be used with state and functional components. <br />
+                    4. Props are read-only. <br />
+                    <br />
+                    <b>State: <br /></b>
+                    1. The Data is passed within the component only. <br />
+                    2. It is Mutable ( can be modified). <br />
+                    3. State can be used only with the state components/class component (Before 16.0). <br />
+                    4. State is both read and write.</p>
 
             </div>
             <div className='third-q'>
