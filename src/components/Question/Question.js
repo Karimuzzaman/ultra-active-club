@@ -25,6 +25,8 @@ const Question = () => {
 
             </div>
             <div className='third-q'>
+                <h2> Q3. What are the uses of useEffect in ReactJS except from loading data?</h2>
+                <p></p>
 
             </div>
 
