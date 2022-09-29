@@ -34,10 +34,6 @@ const Games = () => {
                         handleAddToList={handleAddToList}
                     ></Game>
                     )}
-
-
-
-
             </div>
             <div className='details-container'>
                 <Details details={details}

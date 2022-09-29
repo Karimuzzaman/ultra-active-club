@@ -44,7 +44,7 @@ const Details = ({ details, setDetails }) => {
 
 
 
-    const notify = () => toast("Congratulation!!! you have clicked the button ");
+    const notify = () => toast("Congratulation!!! you are done with your activity ");
 
     let time = 0;
 
@@ -79,7 +79,7 @@ const Details = ({ details, setDetails }) => {
             </div>
             <h1>Game Details:</h1>
             <h3 className='time'>Gaming Time: {time} minutes</h3>
-            <h3 className='time'>Break Time:  {breakTime}seconds</h3>
+            <h3 className='time'>Break Time:  {breakTime} seconds</h3>
 
 
 
