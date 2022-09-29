@@ -9,6 +9,7 @@ const Games = () => {
     const [games, setGames] = useState([]);
     const [details, setDetails] = useState([]);
 
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -20,6 +21,8 @@ const Games = () => {
         const newDetails = [...details, game];
         setDetails(newDetails);
     }
+
+
 
     return (
         <div className='games-container'>
@@ -37,11 +40,8 @@ const Games = () => {
 
             </div>
             <div className='details-container'>
-                <Details details={details}></Details>
-
-
-
-
+                <Details details={details}
+                    setDetails={setDetails}></Details>
             </div>
 
         </div>
