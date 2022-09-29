@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Details from '../Details/Details';
 import Game from '../Game/Game';
+import Question from '../Question/Question';
 
 import './Games.css'
 
@@ -30,12 +31,14 @@ const Games = () => {
                         handleAddToList={handleAddToList}
                     ></Game>
                     )}
+                <Question></Question>
 
 
 
             </div>
             <div className='details-container'>
                 <Details details={details}></Details>
+
 
 
 

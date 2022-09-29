@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Game.css'
 
 const Game = (props) => {
@@ -14,6 +15,8 @@ const Game = (props) => {
             <button onClick={() => props.handleAddToList(props.game)} className='btn-cart'>
                 <p className='btn-text'>Add To list</p>
             </button>
+
+
 
 
         </div>
