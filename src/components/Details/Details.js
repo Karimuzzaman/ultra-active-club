@@ -1,6 +1,10 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Details.css'
 const Details = ({ details }) => {
+
+    const notify = () => toast("Congratulation!!! you have clicked the button ");
 
     let time = 0;
 
@@ -16,6 +20,21 @@ const Details = ({ details }) => {
             </div>
             <h1>Game Details:</h1>
             <h3>Time Required: {time} minutes</h3>
+
+            <div>
+                <button onClick={notify}>Activity Completed</button>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                />
+            </div>
 
         </div>
     );

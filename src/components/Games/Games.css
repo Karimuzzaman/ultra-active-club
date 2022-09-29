@@ -16,6 +16,11 @@
 
 @media only screen and (max-width: 688px) {
 
+    .games-container {
+        grid-template-columns: 2fr 2fr;
+
+    }
+
     .game-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -23,6 +28,12 @@
 
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .games-container {
+        grid-template-columns: 2fr 2fr;
+
+    }
+
     .game-container {
         grid-template-columns: repeat(2, 1fr);
     }
