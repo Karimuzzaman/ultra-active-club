@@ -10,6 +10,8 @@ const Question = () => {
 
             </div>
             <div className='second-q'>
+                <h2> Q2. What are the differences between props & state?</h2>
+                <p> </p>
 
             </div>
             <div className='third-q'>
