@@ -9,6 +9,12 @@ const Details = ({ details }) => {
     }
     return (
         <div className='details'>
+            <div className='user'>
+                <h1>Name: Karimuzzaman</h1>
+                <h2>Locationz: Rajshahi, Bangladesh</h2>
+                <p>Junior Web Developer.</p>
+            </div>
+            <h1>Game Details:</h1>
             <h3>Time Required: {time} minutes</h3>
 
         </div>

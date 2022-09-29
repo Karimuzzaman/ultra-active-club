@@ -35,8 +35,6 @@ const Games = () => {
 
             </div>
             <div className='details-container'>
-                <h2>this is from details</h2>
-                <h4>Selected Items: {details.length}</h4>
                 <Details details={details}></Details>
 
 
