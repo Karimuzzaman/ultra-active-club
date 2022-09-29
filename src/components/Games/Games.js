@@ -31,7 +31,7 @@ const Games = () => {
                         handleAddToList={handleAddToList}
                     ></Game>
                     )}
-                <Question></Question>
+
 
 
 

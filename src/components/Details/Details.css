@@ -2,3 +2,27 @@
     background-color: coral;
     text-align: center;
 }
+
+.details {
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+
+.btn-activity {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.btn-activity:hover {
+    background-color: orange;
+}
+
+.time {
+    border: 1px solid lightgreen;
+    background-color: thistle;
+    padding: 25px;
+    border-radius: 10px;
+}

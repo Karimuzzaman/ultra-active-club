@@ -19,10 +19,10 @@ const Details = ({ details }) => {
                 <p>Junior Web Developer.</p>
             </div>
             <h1>Game Details:</h1>
-            <h3>Time Required: {time} minutes</h3>
+            <h3 className='time'>Time Required: {time} minutes</h3>
 
             <div>
-                <button onClick={notify}>Activity Completed</button>
+                <button className='btn-activity' onClick={notify}>Activity Completed</button>
                 <ToastContainer
                     position="top-center"
                     autoClose={5000}
